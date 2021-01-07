@@ -21,15 +21,17 @@ You may also run the SDRNN and play with the code at Repl.it: https://repl.it/@k
 
 - **SDRNN_7to1.py** - The 7 input, 1 output model of the neural network to produce a scalar that shows the recognized number. This is considered bad practice, as it's pushing a regression tool to solve a classification problem.
 
-  <img src="imgs/7to1.png" alt="7 to 1 sdrnn" width="347" />
+  <center><img src="imgs/7to1.png" alt="7 to 1 sdrnn" width="347" /> </center> 
+
+  
 
 - **SDRNN_7to10.py** - The 7 input, 10 output model of the neural network to produce a One-Hot encoded vector of 10 outputs, where the one with the greatest value represents the recognized number. 
 
-  <img src="./imgs/7to10.png" alt="7 to 10 sdrnn" width="349" />
+  <center><img src="./imgs/7to10.png" alt="7 to 10 sdrnn" width="349" /></center>
 
 - **SDRNN_7to7.py** - The 7 input, 7 output model of the neural network to produce another 7 segment display showing the number inferred by the neural network. This may seem silly at first, but it shows the neural network's capability of generalizing. In other words, it shows how the neural network reacts to patterns it hasn't seen before (e.g. invalid 7 segment patterns.)
 
-  <img src="./imgs/7to7.png" alt="7 to 7 sdrnn" width="499" />
+  <center><img src="./imgs/7to7.png" alt="7 to 7 sdrnn" width="499" /></center>
 
 ## Contact
 
