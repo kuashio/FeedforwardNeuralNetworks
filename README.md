@@ -1,6 +1,6 @@
 # Feedforward Neural Networks in Python
 
-This project is a Python class for a ***MultiLayer Perceptron*** with the sigmoid activation function, that learns using the Backpropagation algorithm. This is the application showcased in my LinkedIn Learning course titled ***[Training Neural Networks in Python](https://www.linkedin.com/learning/training-neural-networks-in-python)***. 
+This project is a Python class for a ***MultiLayer Perceptron*** with the sigmoid activation function, that learns using the Backpropagation algorithm. This is the application showcased in my online courses about Training Neural Networks in Python. 
 
 The application is a Segment Display Recognition Neural Network, or SDRNN for short. It's a system that takes in a vector of 7 real numbers from 0.0 to 1.0, which represent the intensity of the LED segments in a 7-segment LED display, as if a computer vision system were required to recognize the digit being displayed. 
 
